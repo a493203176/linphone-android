@@ -1,0 +1,9 @@
+rm -f /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/arm64-v8a/*
+rm -f /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/arm64-v8a/gdbserver
+rm -f /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/arm64-v8a/gdb.setup
+mkdir -p /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/arm64-v8a
+echo [arm64-v8a] "Gdbserver      ": "[aarch64-linux-android] /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/arm64-v8a/gdbserver"
+install -p /Users/zhoutengfei/Library/Android/sdk/ndk-bundle/prebuilt/android-arm64/gdbserver/gdbserver /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/arm64-v8a/gdbserver
+echo [arm64-v8a] "Gdbsetup       ": "/Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/arm64-v8a/gdb.setup"
+echo "set solib-search-path /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/obj/local/arm64-v8a" > /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/arm64-v8a/gdb.setup
+echo "directory /Users/zhoutengfei/Library/Android/sdk/ndk-bundle/sysroot /Users/zhoutengfei/Library/Android/sdk/ndk-bundle/sources/cxx-stl/system" >> /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/arm64-v8a/gdb.setup

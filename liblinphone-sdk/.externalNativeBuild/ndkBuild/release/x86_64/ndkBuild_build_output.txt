@@ -1,0 +1,3 @@
+rm -f /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/release/lib/x86_64/*
+rm -f /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/release/lib/x86_64/gdbserver
+rm -f /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/release/lib/x86_64/gdb.setup

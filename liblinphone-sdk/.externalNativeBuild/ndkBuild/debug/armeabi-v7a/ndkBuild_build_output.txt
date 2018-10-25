@@ -1,0 +1,9 @@
+rm -f /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/armeabi-v7a/*
+rm -f /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdbserver
+rm -f /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup
+mkdir -p /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/armeabi-v7a
+echo [armeabi-v7a] "Gdbserver      ": "[arm-linux-androideabi] /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdbserver"
+install -p /Users/zhoutengfei/Library/Android/sdk/ndk-bundle/prebuilt/android-arm/gdbserver/gdbserver /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdbserver
+echo [armeabi-v7a] "Gdbsetup       ": "/Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup"
+echo "set solib-search-path /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/obj/local/armeabi-v7a" > /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup
+echo "directory /Users/zhoutengfei/Library/Android/sdk/ndk-bundle/sysroot /Users/zhoutengfei/Library/Android/sdk/ndk-bundle/sources/cxx-stl/system" >> /Users/zhoutengfei/Downloads/linphone/linphone-android/liblinphone-sdk/bin/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup

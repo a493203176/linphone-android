@@ -1,0 +1,11 @@
+{
+  "buildFiles": [
+    "/Users/zhoutengfei/Downloads/linphone/linphone-android/jni/Android.mk",
+    "/Users/zhoutengfei/Downloads/linphone/linphone-android/jni/Application.mk"
+  ],
+  "cleanCommands": [],
+  "libraries": {},
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": []
+}
