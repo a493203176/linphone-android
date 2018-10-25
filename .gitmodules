@@ -1,6 +1,6 @@
 [submodule "submodules/linphone"]
 	path = submodules/linphone
-	url = https://gitlab.linphone.org/BC/public/linphone.git
+	url = https://github.com/a493203176/linphone.git
 [submodule "submodules/externals/gsm"]
 	path = submodules/externals/gsm
 	url = https://gitlab.linphone.org/BC/public/external/gsm.git
